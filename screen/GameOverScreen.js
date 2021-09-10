@@ -7,7 +7,6 @@ import Colors from '../constants/colors';
 import MainButton from '../components/MainButton';
 
 const GameOver = ({ rounds, userNumber, onRestart }) => {
-
     return (
         <ScrollView contentContainerStyle={styles.container}>
             <View style={styles.screen}>
